@@ -1,0 +1,8 @@
+wget t https://releases. hashicorp.com/terraform/1.0.2/terraform_1.0.2_linux_amd64.zip
+•	ls -lrt
+•	unzip terraform_1.0.2_linux_amd64.zip
+•	terraform -v
+•	export PATH=$PATH:/usr/local/bin
+•	sudo mv terraform /usr/local/bin
+•	ls -lrt
+•	terraform -version
