@@ -1,4 +1,5 @@
-import "tfplan"
+{
+  import "tfplan"
 
 main = rule {
   all tfplan.resources.aws_instance as _, instances {
@@ -6,4 +7,5 @@ main = rule {
       (length(r.applied.tags) else 0) > 0
     }
   }
+}
 }
